@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    tools:context=".ProfileActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/iqu"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+        <TextView
+            android:id="@+id/txt_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama : Muhammad Rifqu Abdillah"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_nim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM : 10119042"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_kelas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kelas : IF-1"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

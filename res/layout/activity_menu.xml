@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/bck"
+    tools:context=".MenuActivity">
+
+
+    <Button
+        android:id="@+id/btn_profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80pt"
+        android:text="Profile Mahasiswa"
+        android:textColor="#000000"
+        android:theme="@style/buttonstyle1" />
+
+    <Button
+        android:id="@+id/btn_daftar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_profil"
+        android:layout_marginTop="20pt"
+        android:text="Daftar Catatan Harian"
+        android:textColor="#000000"
+        android:theme="@style/buttonstyle1" />
+
+    <Button
+        android:id="@+id/btn_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_daftar"
+        android:layout_marginTop="20pt"
+        android:text="Informasi Aplikasi"
+        android:textColor="#000000"
+        android:theme="@style/buttonstyle1" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_info"
+        android:layout_marginLeft="80pt"
+        android:layout_marginTop="30pt"
+        android:text="Logout"
+        android:textColor="#000000"
+        android:theme="@style/buttonstyle1"
+        tools:ignore="HardcodedText"/>
+</RelativeLayout>
